@@ -1,0 +1,17 @@
+root: ./
+
+​structure:  
+    readme: README.md  
+
+redirects:  
+    getting-started: introduction
+    getting-started/data-diff-101-comparing-datasets: introduction/data-diff
+    integrations/data-warehouses: getting-started/data-warehouses
+    integrations/data-warehouses/redshift: getting-started/data-warehouses/redshift
+    integrations/data-warehouses/bigquery: getting-started/data-warehouses/bigquery
+    integrations/data-warehouses/snowflake: getting-started/data-warehouses/snowflake
+    integrations/data-warehouses/postgres: getting-started/data-warehouses/postgres
+    integrations/data-warehouses/databricks: getting-started/data-warehouses/databricks
+    integrations/git-version-control: integrations/ci
+    integrations/git-version-control/github: integrations/ci/git
+    integrations/git-version-control/gitlab: integrations/ci/git
