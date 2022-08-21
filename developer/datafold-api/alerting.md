@@ -19,7 +19,7 @@ export DATAFOLD_HOST=https://datafold.company.io
 
 Find the alert that you want to trigger. You can find the ID of the alert by looking at the URL:
 
-![](<../../.gitbook/assets/image (217).png>)
+![](<../../.gitbook/assets/image (227).png>)
 
 Now you can run the alert:
 

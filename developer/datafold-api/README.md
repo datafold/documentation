@@ -1,3 +1,7 @@
+---
+description: The Datafold API gives data teams more access to our tools through GraphQL
+---
+
 # Datafold API
 
 ### Authentication
