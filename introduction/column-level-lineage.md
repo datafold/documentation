@@ -47,7 +47,7 @@ The Profile views shows:
 * When the table was last updated
 * The data owner of the data asset
 * The upstream and downstream tables
-* Original query (click on “Show SQL query” to show the [SQL statement](https://github.com/datafold/dbt-beers/blob/master/models/example/sales.sql) that created the table)&#x20;
+* Original query (click on “Show SQL query” to show the [SQL statement](https://github.com/datafold/dbt-beers/blob/master/models/beers/sales.sql) that created the table)&#x20;
 * Table/Column description, tags, etc.
 
 Next to that, for each column is gives the profile of the data:

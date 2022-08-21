@@ -22,7 +22,7 @@ This tag we can use in the dbt metadata to let Datafold know which column can be
 
 #### Metadata
 
-The first one is setting the tag in the [dbt metadata](https://docs.getdbt.com/reference/resource-properties/meta). We set the primary key tag to `primary-key`so we use this in the metadata.
+The first one is setting the tag in the [dbt metadata](https://docs.getdbt.com/reference/resource-configs/meta). We set the primary key tag to `primary-key`so we use this in the metadata.
 
 Table metadata can also be used to specify per-model diff options. In the example below diff is configured to compare only rows matching `user_id > 2350`. The expression in the filter is an SQL expression and can be anything you could put into `where` clause when selecting from the tables.&#x20;
 
