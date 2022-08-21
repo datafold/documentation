@@ -17,7 +17,7 @@ To connect Datafold to your BigQuery project, you will need to create a _service
 
 Click on the hamburger menu in the upper left and select **IAM & Admin,** and then **Service Accounts**.
 
-<img src="../../.gitbook/assets/image (62).png" alt="" data-size="original">
+<img src="../../.gitbook/assets/image (77).png" alt="" data-size="original">
 
 Let's create a new service account:
 
@@ -49,7 +49,7 @@ Next, we can hit **Done** to create the service account. Datafold does not requi
 
 We need to set one more permission on Datafolds' temporary dataset. Let's navigate to BigQuery in the console. Datafold requires read permissions on all the datasets that contain user data but needs one dataset to materialize in between datasets. By materializing this data in BigQuery we reduce the volumes of data that are being processed in Datafold itself.&#x20;
 
-<img src="../../.gitbook/assets/image (34).png" alt="" data-size="original">
+<img src="../../.gitbook/assets/image (222).png" alt="" data-size="original">
 
 Give the dataset a name that is related to Datafold, in the example we call it `datafold_tmp`.
 

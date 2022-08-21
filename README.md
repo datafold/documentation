@@ -8,12 +8,16 @@ This document will guide you through setting up and using Datafold platform. Sta
 [introduction](introduction/)
 {% endcontent-ref %}
 
-{% content-ref url="broken-reference" %}
-[Broken link](broken-reference)
+{% content-ref url="getting-started/data-warehouses/" %}
+[data-warehouses](getting-started/data-warehouses/)
 {% endcontent-ref %}
 
-{% content-ref url="broken-reference" %}
-[Broken link](broken-reference)
+{% content-ref url="integrations/ci/" %}
+[ci](integrations/ci/)
+{% endcontent-ref %}
+
+{% content-ref url="integrations/data-apps/" %}
+[data-apps](integrations/data-apps/)
 {% endcontent-ref %}
 
 {% content-ref url="developer/security/" %}

@@ -36,7 +36,7 @@ The information shown can be ingested from many sources:
 
 These features make sure that the UI is rich, and that you can easily integrate Datafold into your existing data stack. In addition to that, Datafold gives easy insight into the data itself:
 
-![](<../.gitbook/assets/image (43).png>)
+![](<../.gitbook/assets/image (165).png>)
 
 The Profile views shows:
 
@@ -52,7 +52,7 @@ The Profile views shows:
 
 Next to that, for each column is gives the profile of the data:
 
-![](<../.gitbook/assets/image (161).png>)
+![](<../.gitbook/assets/image (85).png>)
 
 This view gives the analyst, engineer, or scientist quick insights into:
 

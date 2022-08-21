@@ -14,7 +14,7 @@ We click the **Create a Slack app configuration token**:
 
 This token gives admin permissions for the Datafold API to set up the Slack integration. Select the workspace, and copy the Access Token:
 
-![](<../../../.gitbook/assets/image (208).png>)
+![](<../../../.gitbook/assets/image (56).png>)
 
 We paste the token into the top input box, and hit **Create Slack App**:
 
