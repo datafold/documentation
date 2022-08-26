@@ -12,24 +12,14 @@ Becoming pro-active about data quality requires data teams to find and adjust th
 
 * Authorize our Github or Gitlab integrations
 
-{% content-ref url="git/github/" %}
-[github](git/github/)
-{% endcontent-ref %}
+  * [GitHub](git/github/)
 
-{% content-ref url="git/gitlab.md" %}
-[gitlab.md](git/gitlab.md)
-{% endcontent-ref %}
+  * [GitLab](git/gitlab.md)
 
 * Use dbt or the `datafold-sdk` to implement your tests
 
-{% content-ref url="dbt-cloud.md" %}
-[dbt-cloud.md](dbt-cloud.md)
-{% endcontent-ref %}
+  * [dbt Cloud](dbt-cloud.md)
 
-{% content-ref url="dbt-ci/" %}
-[dbt-ci](dbt-ci/)
-{% endcontent-ref %}
+  * [dbt Core](dbt-ci/)
 
-{% content-ref url="datafold-sdk.md" %}
-[datafold-sdk.md](datafold-sdk.md)
-{% endcontent-ref %}
+  * [datafold-sdk](datafold-sdk.md)
