@@ -1,7 +1,3 @@
----
-description: Setting up your Postgres data source in Datafold
----
-
 # Postgres
 
 To connect to Postgres, you need to create a user with read-only access to all tables in all schemas, write access to Datafold-specific schema for temporary tables:

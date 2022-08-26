@@ -1,7 +1,3 @@
----
-description: Setting up your Redshift data source in Datafold
----
-
 # Redshift
 
 To connect to Amazon Redshift, you need to create a user with read-only access to all tables in all schemas, write access to Datafold-specific schema for temporary tables, and the ability to access SQL logs:

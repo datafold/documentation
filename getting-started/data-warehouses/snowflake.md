@@ -1,7 +1,3 @@
----
-description: Setting up your Snowflake data source in Datafold
----
-
 # Snowflake
 
 {% hint style="warning" %}

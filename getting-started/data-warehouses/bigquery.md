@@ -1,7 +1,3 @@
----
-description: Setting up your BigQuery data source in Datafold
----
-
 # BigQuery
 
 The following steps will walk you through creating a service account for Datafold to have read-access to your datasets and write-access to a new temporary table.&#x20;

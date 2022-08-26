@@ -1,7 +1,3 @@
----
-description: Run alerts through the datafold-sdk
----
-
 # Alerting
 
 In certain situations, you want to trigger alerts, for example, when a pipeline has finished. To do this, you can leverage the `datafold-sdk`. This small Python library allows you to trigger an alert in Datafold.
