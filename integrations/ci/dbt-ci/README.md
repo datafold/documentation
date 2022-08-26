@@ -48,15 +48,14 @@ Make sure that the credentials are available using the environment variables`DAT
 | --target-folder | The target folder produced by dbt in the run. All artifacts in the root of the directory are recursively zipped.                                                                                                                                                                                                |
 | --commit-sha    | Optional. The SHA of the latest commit in the PR branch. This is the same as the `pr_sha` in the GitHub `pull_request` webhook if you have your CI set up with GitHub. If the target folder was produced in the source repository itself, the CLI will attempt to derive the commit SHA using a `git` command.  |
 
-{% hint style="warning" %}
-If you are using **GitHub Actions**, by default you'll be working with merge commit that is automatically created by merging PR into the base branch. This commit is ephemeral and doesn't exist outside of the action runner, so Datafold won't be able to link artifact submission to the PR.
-
-For that reason when submitting artifacts, you should use PR HEAD sha instead. It can be extracted with the following snippet:
+> If you are using **GitHub Actions**, by default you'll be working with merge commit that is automatically created by merging PR into the base branch. This commit is ephemeral and doesn't exist outside of the action runner, so Datafold won't be able to link artifact submission to the PR.
+>
+> For that reason when submitting artifacts, you should use PR HEAD sha instead. It can be extracted with the following snippet:
 
 ```
 export PR_SHA=$(cat $GITHUB_EVENT_PATH | jq -r .pull_request.head.sha)          
 ```
-{% endhint %}
+
 
 Or, use the Datafold SDK in your python code directly:
 

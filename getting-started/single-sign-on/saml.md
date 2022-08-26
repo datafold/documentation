@@ -72,11 +72,10 @@ In the modal dialog, select "SAML 2.0" and click "Next".
 
 Give the application a descriptive name, e.g. "Datafold SAML", then click "Next".
 
-{% hint style="info" %}
-Datafold expects the Identity Provider's metadata first and generates the Service Provider URLs later. Unlike other SAML applications, Okta expects it in reverse order: the Service Provider's URLs first and generates the Identity Provider's metadata afterward.
+> Datafold expects the Identity Provider's metadata first and generates the Service Provider URLs later. Unlike other SAML applications, Okta expects it in reverse order: the Service Provider's URLs first and generates the Identity Provider's metadata afterward.
+>
+> This inconvenience will be fixed as soon as possible to adapt to Okta's flow.
 
-This inconvenience will be fixed as soon as possible to adapt to Okta's flow.
-{% endhint %}
 
 To configure Okta, a little trick is needed:&#x20;
 
@@ -125,9 +124,8 @@ The configuration is finished. You can try to log in using Okta SAML.
 
 ## Mapping SAML user groups
 
-{% hint style="info" %}
-This feature is disabled by default. Please contact support if you are interested in enabling it.
-{% endhint %}
+> This feature is disabled by default. Please contact support if you are interested in enabling it.
+
 
 If you want users from certain groups of your SSO provider to be mapped to certain Datafold groups automatically, you can configure such mapping on the group page. For example, if you want all users from `Development` group to become `admin` in Datafold automatically, you can configure the  `admin` group as follows.
 

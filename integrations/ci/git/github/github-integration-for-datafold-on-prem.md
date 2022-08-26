@@ -4,9 +4,8 @@ description: Setting up on premise instances of the Datafold Github app
 
 # On-prem Github
 
-{% hint style="warning" %}
-This section is only for companies that selected an on-prem (single-tenant) deployment of Datafold. If you are on the SaaS deployment, follow [this](./) manual.
-{% endhint %}
+> This section is only for companies that selected an on-prem (single-tenant) deployment of Datafold. If you are on the SaaS deployment, follow [this](./) manual.
+
 
 On-prem clients of Datafold need to create their own GitHub app. This is because we can't expose the credential of the public Datafold app in the customers deployment.
 

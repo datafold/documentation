@@ -2,9 +2,8 @@
 
 ## Installing the Slack App for Datafold
 
-{% hint style="warning" %}
-You must be a **Slack admin** with permission to install apps for your workspace in order to complete this integration.
-{% endhint %}
+> You must be a **Slack admin** with permission to install apps for your workspace in order to complete this integration.
+
 
 To install the Slack App, open _Settings / Integrations_, click _New integration_, select _Slack_, click _Create_.&#x20;
 

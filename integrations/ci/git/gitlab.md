@@ -4,9 +4,8 @@ description: This guide will take you through the GitLab integration.
 
 # GitLab
 
-{% hint style="warning" %}
-Setting up the GitLab integrations requires **Admin** privileges. Confirm that you have the correct permissions before continuing.&#x20;
-{% endhint %}
+> Setting up the GitLab integrations requires **Admin** privileges. Confirm that you have the correct permissions before continuing.&#x20;
+
 
 This guide will take you through the required steps to set up Datafold with GitLab. Let's start by adding a new Git config.
 

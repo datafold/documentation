@@ -25,10 +25,8 @@ CREATE USER datafold CREATEUSER PASSWORD 'SOMESECUREPASSWORD';
 ALTER USER datafold WITH SYSLOG ACCESS UNRESTRICTED;
 ```
 
-{% hint style="info" %}
-[IP Whitelisting ->](../../developer/security/network-security.md)
-{% endhint %}
+> [IP Whitelisting ->](../../developer/security/network-security.md)
 
-{% hint style="success" %}
-After setting permissions in your data source, move on to [Configuration ->](../configuration/)
-{% endhint %}
+
+> After setting permissions in your data source, move on to [Configuration ->](../configuration/)
+

@@ -21,15 +21,13 @@ The GitHub permissions requested by the Datafold App are:
 
 ### Installing the Datafold GitHub App
 
-{% hint style="warning" %}
-If you are on an on-prem deployment, you should first create the GitHub App. See [GitHub integration for Datafold on-prem](github-integration-for-datafold-on-prem.md). Then, proceed with the current tutorial.
-{% endhint %}
+> If you are on an on-prem deployment, you should first create the GitHub App. See [GitHub integration for Datafold on-prem](github-integration-for-datafold-on-prem.md). Then, proceed with the current tutorial.
+
 
 The easiest way to integrate with Datafold is to allow access to the repositories using the GitHub App.&#x20;
 
-{% hint style="warning" %}
-You have to be an admin of your GitHub organization to be able to install the GitHub App.
-{% endhint %}
+> You have to be an admin of your GitHub organization to be able to install the GitHub App.
+
 
 Go to the _Git settings screen_ in Datafold. Click _Install GitHub App_. Follow through the steps. Instead of _all repositories_, select the specific repositories the app should have access to.
 
