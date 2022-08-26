@@ -2,4 +2,4 @@
 # the repo. Unless a later match takes precedence,
 # @kgmajor & @williebsweet will be requested for
 # review when someone opens a pull request.
-*       @kgmajor @williebsweet
+#*       @kgmajor @williebsweet
