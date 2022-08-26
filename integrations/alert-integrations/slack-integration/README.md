@@ -4,22 +4,21 @@
 
 > You must be a **Slack admin** with permission to install apps for your workspace in order to complete this integration.
 
-
-To install the Slack App, open _Settings / Integrations_, click _New integration_, select _Slack_, click _Create_.&#x20;
+To install the Slack App, open _Settings / Integrations_, click _New integration_, select _Slack_, click _Create_.
 
 ![](<../../../.gitbook/assets/image (99).png>)
 
 After clicking _Create,_ you will be forwarded to Slack's website for approval. If you have permission to add applications to your workspace, click _Allow_. Select the proper one in the upper right corner if you have access to multiple namespaces.
 
-![](<../../../.gitbook/assets/image (80).png>)
+![](<../../../.gitbook/assets/image (141).png>)
 
 Once allowed, you will be redirected back to Datafold, and the new integration will be seen in the list. It can now be used in alerts.
 
-![](<../../../.gitbook/assets/image (141).png>)
+![](<../../../.gitbook/assets/image (80).png>)
 
 #### Application approval
 
-If your Slack workspace requires approval of applications, fill in the form and send the request for approval instead of the Allow button. Contact your Slack administrators for approval.&#x20;
+If your Slack workspace requires approval of applications, fill in the form and send the request for approval instead of the Allow button. Contact your Slack administrators for approval.
 
 ![](<../../../.gitbook/assets/image (72).png>)
 

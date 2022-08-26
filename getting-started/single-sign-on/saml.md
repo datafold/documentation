@@ -12,7 +12,7 @@ To configure SAML Single Sign-On with a generic Identity Provider, follow these 
 
 The Identity Provider will show the "Identity Provider metadata XML". Sometimes, it is a raw XML; sometimes, a URL to the XML; sometimes, it is an XML file to download — this can vary.
 
-_The Identity Providers sometimes provide additional parameters, such as SSO URLs, ACS URLs, SLO URLs, etc. Safely ignore those fields — we take them all from the metadata XML._
+_The Identity Providers sometimes provide additional parameters, such as SSO URLs, ACS URLs, SLO URLs, etc. Safely ignore those fields — we take them all from the metadata XML._
 
 **Step 2.** Open the Organisation Settings in Datafold, and copy-paste the Identity Provider metadata XML into the same-named field. Alternatively, copy-paste the metadata URL — and Datafold will download the XML.
 
@@ -46,7 +46,7 @@ Please follow this Google manual: [Set up your own custom SAML application](http
 
 Configure the attribute mapping as follows:
 
-![](<../../.gitbook/assets/image (296).png>)
+![](<../../.gitbook/assets/image (78).png>)
 
 To get the Identity Provider metadata after the application is created, click on the "Download Metadata" button on the left, and then click the "Download Metadata" button in the "Option 1" section:
 
@@ -60,7 +60,7 @@ A short walkthrough:
 
 ### Step by step instructions
 
-Log into your Okta admin console and open "Applications / Applications".&#x20;
+Log into your Okta admin console and open "Applications / Applications".
 
 Click "Create App Integration".
 
@@ -76,8 +76,7 @@ Give the application a descriptive name, e.g. "Datafold SAML", then click "Next"
 >
 > This inconvenience will be fixed as soon as possible to adapt to Okta's flow.
 
-
-To configure Okta, a little trick is needed:&#x20;
+To configure Okta, a little trick is needed:
 
 Set the Single Sign-On URL and Audience URI (SP Entity ID) to a fake URL, e.g. `https://x` (literally this or anything else).
 
@@ -110,7 +109,7 @@ Alternatively (instead of the previous step), get the raw XML at that link and i
 Either way, after you save the URL or the XML, a few URLs will be provided from the Service Provider side (i.e. by Datafold). The most important and the most required URLs are:
 
 * "SAML Service Provider ACS URL" ("ACS" stands for "Assertion Consumer Service");
-* "SAML Service Provider Entity ID" (which usually looks like an URL).&#x20;
+* "SAML Service Provider Entity ID" (which usually looks like an URL).
 
 Other URLs are not used in Okta and can be ignored.
 
@@ -126,12 +125,11 @@ The configuration is finished. You can try to log in using Okta SAML.
 
 > This feature is disabled by default. Please contact support if you are interested in enabling it.
 
-
-If you want users from certain groups of your SSO provider to be mapped to certain Datafold groups automatically, you can configure such mapping on the group page. For example, if you want all users from `Development` group to become `admin` in Datafold automatically, you can configure the  `admin` group as follows.
+If you want users from certain groups of your SSO provider to be mapped to certain Datafold groups automatically, you can configure such mapping on the group page. For example, if you want all users from `Development` group to become `admin` in Datafold automatically, you can configure the `admin` group as follows.
 
 ![](<../../.gitbook/assets/image (129).png>)
 
-The next thing is to configure SAML IDP to pass group membership information to the `groups` attribute in the SAML response. In Okta this can be configured under the  `Configure SAML` tab.
+The next thing is to configure SAML IDP to pass group membership information to the `groups` attribute in the SAML response. In Okta this can be configured under the `Configure SAML` tab.
 
 ![](<../../.gitbook/assets/image (166).png>)
 
