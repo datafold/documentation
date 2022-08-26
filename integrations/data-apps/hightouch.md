@@ -6,9 +6,8 @@ First, you'll need your Hightouch API key and workspace name to set up the integ
 
 Go to your Hightouch workspace ([https://app.hightouch.io/](https://app.hightouch.io/))  -> Settings -> API Keys -> Add API Key
 
-{% hint style="warning" %}
-Your API key will appear only once, so please copy and save it to your password manager for further use.
-{% endhint %}
+> Your API key will appear only once, so please copy and save it to your password manager for further use.
+
 
 ![Add API Key in Hightouch Settings ](<../../.gitbook/assets/Screenshot 2022-06-21 at 09.06.23.png>)
 

@@ -44,18 +44,14 @@ Next, we have to go back to the **IAM & Admin** page to generate a key for Dataf
 
 <figure><img src="../../.gitbook/assets/image (223).png" alt=""><figcaption></figcaption></figure>
 
-For Datafold, we use the recommended json format. After creating the key, it will be saved on your local machine**.**
+For Datafold, we use the recommended json format. After creating the key, it will be saved on your local machine
 
-{% hint style="warning" %}
-In the **Project ID** field, enter the BigQuery project ID. It can be found in the URL of your Google Developers Console: `https://console.developers.google.com/apis/library?project=MY_PROJECT_ID`
 
-In the **Schema for temporary tables** field, enter the project id and temporary table name in the following format `Project_id.temp_table_name`.
-{% endhint %}
+> In the **Project ID** field, enter the BigQuery project ID. It can be found in the URL of your Google Developers Console: `https://console.developers.google.com/apis/library?project=MY_PROJECT_ID`
+> 
+>In the **Schema for temporary tables** field, enter the project id and temporary table name in the following format `Project_id.temp_table_name`.
 
-{% hint style="info" %}
-[IP Whitelisting ->](../../developer/security/network-security.md)
-{% endhint %}
+> [IP Whitelisting ->](../../developer/security/network-security.md)
 
-{% hint style="success" %}
-After setting permissions in your data source, move on to [Configuration ->](../configuration/)
-{% endhint %}
+
+> After setting permissions in your data source, move on to [Configuration ->](../configuration/)

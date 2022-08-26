@@ -2,9 +2,8 @@
 
 Datafold can send alert notifications to arbitrary endpoints of arbitrary applications with arbitrary payloads (not only JSON) when an alert violates the thresholds or an anomaly appears.
 
-{% hint style="info" %}
-This feature is only available on request. Please contact Datafold to enable it for your organization.
-{% endhint %}
+> This feature is only available on request. Please contact Datafold to enable it for your organization.
+
 
 Only the organization admins can configure the endpoints to which the notifications are sent. The users can use the pre-configured endpoints in alerts, but they cannot modify the URLs or payloads.
 

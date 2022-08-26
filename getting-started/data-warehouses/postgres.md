@@ -82,10 +82,8 @@ We need to supply the Credentials and the Log group to Datafold:
 
 ![](<../../.gitbook/assets/image (262).png>)
 
-{% hint style="info" %}
-[IP Whitelisting ->](../../developer/security/network-security.md)
-{% endhint %}
+> [IP Whitelisting ->](../../developer/security/network-security.md)
 
-{% hint style="success" %}
-After setting permissions in your data source, move on to [Configuration ->](../configuration/)
-{% endhint %}
+
+>After setting permissions in your data source, move on to [Configuration ->](../configuration/)
+

@@ -37,10 +37,8 @@ In most cases, `CATALOG_NAME` is `hive_metastore`.
 
 Click **Save**. Your data source is ready!
 
-{% hint style="info" %}
-[IP Whitelisting ->](../../developer/security/network-security.md)
-{% endhint %}
+> [IP Whitelisting ->](../../developer/security/network-security.md)
 
-{% hint style="success" %}
-After setting permissions in your data source, move on to [Configuration ->](../configuration/)
-{% endhint %}
+
+> After setting permissions in your data source, move on to [Configuration ->](../configuration/)
+

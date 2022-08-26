@@ -1,14 +1,12 @@
 # Snowflake
 
-{% hint style="warning" %}
-Datafold will need permissions in your Snowflake dataset in order to read your table data. You will need to be a Snowflake admin in order to grant the required permission.
-{% endhint %}
+> 🔐 Datafold will need permissions in your Snowflake dataset in order to read your table data. You will need to be a Snowflake admin in order to grant the required permission.
+
 
 ## **Step 1: Create a user and role for Datafold**
 
-{% hint style="info" %}
-A full script can be found at the bottom of this page.
-{% endhint %}
+> A full script can be found at the bottom of this page.
+
 
 **Step 1: Create a user and role for Datafold**
 
@@ -81,13 +79,11 @@ GRANT SELECT ON ALL MATERIALIZED VIEWS IN DATABASE <database_name> TO ROLE DATAF
 GRANT SELECT ON FUTURE MATERIALIZED VIEWS IN DATABASE <database_name> TO ROLE DATAFOLDROLE;
 ```
 
-{% hint style="info" %}
-[IP Whitelisting -> ](../../developer/security/network-security.md)
-{% endhint %}
+> [IP Whitelisting -> ](../../developer/security/network-security.md)
 
-{% hint style="success" %}
-After setting permissions in your data source, move on to [Configuration ->](../configuration/)
-{% endhint %}
+
+> After setting permissions in your data source, move on to [Configuration ->](../configuration/)
+
 
 ### Full Script
 
