@@ -13,7 +13,7 @@ This guide will give you full control over when profiles are being computed:
 
 Below we can see that the profile has been updated since `2021-06-19 08:46:15 UTC`. By default, the profile is being computed when you visit the table:
 
-![Example profiling](<../../.gitbook/assets/image (114).png>)
+![Example profiling](<../../.gitbook/assets/image (251).png>)
 
 It is highly recommended to set the computation of statistics on a schedule. This will make sure that the profiles are computed outside of business hours, and that the statistics are cached in Datafold, resulting in a snappy experience by having the statistics without any delay. We can configure this on a fine-grained level in the data source configuration page:
 
@@ -26,6 +26,6 @@ We recommend setting a crontab schedule outside of business hours, preferably on
 
 After checking the **Discourage manual profile refresh** in the data source configuration. There will be a pop up when manually refreshing the profile:
 
-![](<../../.gitbook/assets/image (243).png>)
+![](<../../.gitbook/assets/image (100).png>)
 
 Hope this helps when fine-tuning the profiles in Datafold. If there are any questions, please don't hesitate to reach out.

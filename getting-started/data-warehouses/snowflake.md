@@ -4,7 +4,7 @@ description: Setting up your Snowflake data source in Datafold
 
 # Snowflake
 
-{% hint style="danger" %}
+{% hint style="warning" %}
 Datafold will need permissions in your Snowflake dataset in order to read your table data. You will need to be a Snowflake admin in order to grant the required permission.
 {% endhint %}
 

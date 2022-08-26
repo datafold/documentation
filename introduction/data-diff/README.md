@@ -36,7 +36,7 @@ Built-in thresholds can be overwritten or removed via the configuration paramete
 [Get started with Data Diff ->](broken-reference)
 {% endhint %}
 
-#### Diff result materialization
+### Diff result materialization
 
 By default, the only way to view full diff results is by looking through UI. However, sometimes it's more convenient to have access to the raw data and explore results manually by writing custom queries against them. You can achieve this by enabling **Materialize diff results** option**.** If the option is enabled, then diff results will be persisted in your Data Warehouse as tables in the Datafold schema. This option can be set both on the manual diff page and the CI settings page.
 

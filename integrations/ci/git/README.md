@@ -8,10 +8,5 @@ One of the most powerful features of Datafold is our ability to integrate with y
 
 Presently, you can set up continuous integration with:
 
-{% content-ref url="github/" %}
-[github](github/)
-{% endcontent-ref %}
-
-{% content-ref url="gitlab.md" %}
-[gitlab.md](gitlab.md)
-{% endcontent-ref %}
+* [GitHub](github/)
+* [GitLab](gitlab.md)

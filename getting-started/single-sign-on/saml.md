@@ -46,7 +46,7 @@ Please follow this Google manual: [Set up your own custom SAML application](http
 
 Configure the attribute mapping as follows:
 
-![](<../../.gitbook/assets/image (78).png>)
+![](<../../.gitbook/assets/image (296).png>)
 
 To get the Identity Provider metadata after the application is created, click on the "Download Metadata" button on the left, and then click the "Download Metadata" button in the "Option 1" section:
 

@@ -8,6 +8,5 @@ Datafold supports BI integration to extend lineage up to the reporting level.&#x
 
 Currently, we support:
 
-{% content-ref url="mode.md" %}
-[mode.md](mode.md)
-{% endcontent-ref %}
+* [Mode](mode.md)
+* [Hightouch](hightouch.md)
