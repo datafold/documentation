@@ -18,19 +18,20 @@ To connect Datafold to your BigQuery project, you will need to create a _service
 * Click on the hamburger menu in the upper left and select **IAM & Admin,** and then **Service Accounts**.
 * Create the service account and name it Datafold
 
-<figure><img src="../../.gitbook/assets/image (62).png" alt=""><figcaption></figcaption></figure>
+![](../../.gitbook/assets/imageBQ1.png)
+
 
 ### Service Account Access and Permissions
 
 For Datafold we require the **BigQuery Data Viewer** for read access on all the datasets in the project. We need the **BigQuery Job User** to run queries. Next to that Datafold requires the **BigQuery Resource Viewer** role for fetching the query logs to parse lineage.
 
-<figure><img src="../../.gitbook/assets/image (127).png" alt=""><figcaption></figcaption></figure>
+![](../../.gitbook/assets/imageBQ2.png)
 
 ### Create a Temporary Dataset
 
 We need to set one more permission on Datafold's temporary dataset. Let's navigate to BigQuery in the console. Datafold requires read permissions on all the datasets that contain user data but needs one dataset to materialize in between datasets. By materializing this data in BigQuery we reduce the volumes of data that are being processed in Datafold itself.&#x20;
 
-<figure><img src="../../.gitbook/assets/image (222) (1) (1).png" alt=""><figcaption></figcaption></figure>
+![](../../.gitbook/assets/imageBQ3.png)
 
 Give the dataset a name that is related to Datafold, in the example we call it `datafold_tmp`.
 
@@ -42,7 +43,7 @@ Datafold requires the **BigQuery Data Editor** role on the newly created Dataset
 
 Next, we have to go back to the **IAM & Admin** page to generate a key for Datafold:
 
-<figure><img src="../../.gitbook/assets/image (223).png" alt=""><figcaption></figcaption></figure>
+![](../../.gitbook/assets/imageBQ4.png)
 
 For Datafold, we use the recommended json format. After creating the key, it will be saved on your local machine
 
