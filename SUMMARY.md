@@ -8,6 +8,7 @@
     * [Diff Results](introduction/data-diff/diff-results.md)
   * [Column-level lineage](introduction/column-level-lineage.md)
   * [Alerting](introduction/alerting.md)
+* [⏱ Quickstart Guide](quickstart-guide.md)
 
 ## Getting Started
 
