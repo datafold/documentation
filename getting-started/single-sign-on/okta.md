@@ -42,7 +42,7 @@ Users in your organization can log in to the application directly from the Okta 
 2. Set `Application visibility` to `Display application icon to users`.
 3. Set `Login flow` to `Redirect to app to initiate login (OIDC Compliant).`
 4. Set `Initiate login URI`:
-   * For on-premise deployment to `https://<install-hostname>/login/sso/<client-id>`, where client-id is the Client ID of the configuration.
-   * For SaaS to `https://app.datafold.com/login/sso/<client-id>,` where client-id is the Client ID of the configuration.
+   * For on-premise deployment to `https://<install-hostname>/login/sso/<client-id>?action=<action>`, where client-id is the Client ID of the configuration and action is `signup` if you enabled users auto-creation and `login` otherwise.
+   * For SaaS to `https://app.datafold.com/login/sso/<client-id>?action=<action>,` where client-id is the Client ID of the configuration and action is `signup` if you enabled users auto-creation and `login` otherwise.
 
 ![IDP initiated login configuration example for SaaS deployment](<../../.gitbook/assets/Screenshot 2022-05-25 at 12.08.38.png>)
