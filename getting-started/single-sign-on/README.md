@@ -1,7 +1,3 @@
----
-description: Set up your single sign-on with Datafold
----
-
 # SSO
 
 Currently, we offer the following Single Sign-On options:
