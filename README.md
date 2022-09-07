@@ -9,5 +9,3 @@ This document will guide you through setting up and using Datafold platform. Sta
 * [Continuous Integrations](integrations/ci/)
 * [Data Apps](integrations/data-apps/)
 * [Security](developer/security/)
-
-Find me
