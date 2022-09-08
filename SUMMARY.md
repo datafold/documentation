@@ -33,7 +33,7 @@
 
 ## Integrations
 
-* [Continuous Integrations](integrations/ci/README.md)
+* [Continuous Integration](integrations/ci/README.md)
   * [Source Control with Git](integrations/ci/git/README.md)
     * [GitHub](integrations/ci/git/github/README.md)
       * [On-prem Github](integrations/ci/git/github/github-integration-for-datafold-on-prem.md)
