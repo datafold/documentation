@@ -2,7 +2,7 @@
 
 When configuring a data source, certain databases, schemas, and tables can be excluded from search results and partially from Lineage.
 
-![In this example: show only the LIVE database, hide all other databases, but also hide all the temporary schemas and tables in the LIVE database.](<../../.gitbook/assets/image (201).png>)
+<figure><img src="../../.gitbook/assets/Screen Shot 2022-09-08 at 11.47.06 AM.png" alt=""><figcaption></figcaption></figure>
 
 Two settings define the filtering:
 
