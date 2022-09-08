@@ -24,7 +24,7 @@ This tag we can use in the dbt metadata to let Datafold know which column can be
 
 The first one is setting the tag in the [dbt metadata](https://docs.getdbt.com/reference/resource-configs/meta). We set the primary key tag to `primary-key`so we use this in the metadata.
 
-Table metadata can also be used to specify per-model diff options. In the example below diff is configured to compare only rows matching `user_id > 2350`. The expression in the filter is an SQL expression and can be anything you could put into `where` clause when selecting from the tables.&#x20;
+Table metadata can also be used to specify per-model diff options. In the example below diff is configured to compare only rows matching `user_id > 2350`. The expression in the filter is an SQL expression and can be anything you could put into `where` clause when selecting from the tables.
 
 ```
 models:
@@ -33,11 +33,25 @@ models:
       datafold:
         datadiff:
           filter: "user_id > 2350"
+          include_columns:
+            - user_id
+            - created_at
+            - name
+          exclude_columns:
+            - full_name
+          time_travel1:
+            - updated_at
+          time_travel2:
+            - updated_at
+          time_column:
+            - created_at
           
     columns:
       - name: user_id
         meta:
           primary-key: true
+                    
+          
 # In the case of a compound Primary Key, you can assign a second column (or more)
       - name: version_id
         meta:
@@ -127,7 +141,6 @@ $ export DATAFOLD_HOST=https://<hostname>
 
 # get your API key in Datafold UI -> Edit Profile -> API Key
 $ export DATAFOLD_APIKEY=RSSQrpfddSEEK8WVtc0zd27f9nsdhPU3AxZ
-
 ```
 
 After that you need to compile manifest.json and you are ready to do the check:
@@ -144,7 +157,6 @@ none        dbt_snowflake.new_service_calls                                     
 tags        dbt_snowflake.ephemeral_supply_of_twos   ID                         models/ephemeral_supply_of_twos.sql   models/schema.yml 
 uniqueness  dbt_snowflake.new_service_calls_concat2  CAL_YEAR, INCIDENT_NUMBER  models/new_service_calls_concat2.sql  models/schema.yml 
 uniqueness  dbt_snowflake.supply_of_twos             ID                         models/supply_of_twos.sql             models/schema.yml 
-
 ```
 
 The first column shows how the key was inferred:
@@ -193,7 +205,6 @@ models:
           - pii
         meta:
           type: email
-
 ```
 
 There are two special meta types:
@@ -220,4 +231,3 @@ Metadata synchronization occurs in one of two methods:
 
 * The `meta_schedule` is set for the dbt cloud integration. This will run according to the specified cron schedule, find the most recent dbt cloud production run, and synchronize the metadata from there.
 * It can also be configured to synchronize metadata whenever a push to production happens.
-
