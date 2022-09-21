@@ -24,7 +24,7 @@ This tag we can use in the dbt metadata to let Datafold know which column can be
 
 The first one is setting the tag in the [dbt metadata](https://docs.getdbt.com/reference/resource-configs/meta). We set the primary key tag to `primary-key`so we use this in the metadata.
 
-Table metadata can also be used to specify per-model diff options. In the example below diff is configured to compare only rows matching `user_id > 2350`. The expression in the filter is an SQL expression and can be anything you could put into `where` clause when selecting from the tables.
+Table metadata can also be used to specify per-model diff options. In the example below diff is configured to compare only rows matching `user_id > 2350`. The expression in the filter is an SQL expression and can be anything you could put into `where` clause when selecting from the tables. Also you can include columns (`include_columns`) which will be used when diffing, and exclude (`exclude_columns`) some of them. For time dimension you can set a time column of \`time\_travel\` field. If you want to add time travelling, you can define `prod_time_travel` for travelling of a production model,  `pr_time_travel` of a PR model but, please, keep in mind that not all databases support time traveling.
 
 ```
 models:
@@ -39,10 +39,10 @@ models:
             - name
           exclude_columns:
             - full_name
-          time_travel1:
-            - updated_at
-          time_travel2:
-            - updated_at
+          prod_time_travel:
+            - 2022-02-07T00:00:00
+          pr_time_travel:
+            - 2022-02-07T00:00:00
           time_column:
             - created_at
           
