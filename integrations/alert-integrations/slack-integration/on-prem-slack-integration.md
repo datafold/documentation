@@ -2,7 +2,7 @@
 
 Before setting up the Slack integration we need to create the Slack app. This step is required for on-prem credentials, since we cannot ship it with the Datafold app because that would include shipping the Slack App secrets.
 
-![](<../../../.gitbook/assets/image (16).png>)
+![](<../../../.gitbook/assets/image (16) (1).png>)
 
 First, we go to Global settings within your Datafold deployment. If you scroll down you'll see the Slack settings:
 
@@ -22,7 +22,7 @@ We paste the token into the top input box, and hit **Create Slack App**:
 
 Now you'll see the client id, secret and signing secret being set up:
 
-![](<../../../.gitbook/assets/image (19).png>)
+![](<../../../.gitbook/assets/image (19) (1).png>)
 
 Now you're ready to follow the steps in [Slack integration](./). If you want to know more about the Slack App itself, you can refresh the Slack page, and the Datafold app will appear:
 

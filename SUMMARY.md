@@ -6,7 +6,8 @@
     * [Continuous Integration](introduction/data-diff/continuous-integration.md)
     * [Manual Data Diff](introduction/data-diff/manual-data-diff.md)
     * [Diff Results](introduction/data-diff/diff-results.md)
-  * [Column-level lineage](introduction/column-level-lineage.md)
+  * [Column-level lineage](introduction/column-level-lineage/README.md)
+    * [Usage, popularity, & impact per table or column](introduction/column-level-lineage/usage-popularity-and-impact-per-table-or-column.md)
   * [Alerting](introduction/alerting.md)
 * [⏱ Quickstart Guide](quickstart-guide.md)
 

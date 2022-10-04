@@ -10,7 +10,7 @@ Datafold allows you to trigger data diffs from CI using the [datafold-sdk](https
 
 Next, click "Add new CI config":
 
-![](<../../.gitbook/assets/image (7).png>)
+![](<../../.gitbook/assets/image (7) (1).png>)
 
 First, we select the repository set up under [Git settings](git/). Then we choose the data source that [we have set up earlier](../../getting-started/data-warehouses/), and we give it a name so we can easily remember the settings. The other settings are optional; more info can be found under the question-mark icon. After saving, we'll have a CI config id that we need later on:
 

@@ -4,8 +4,7 @@ description: This guide will take you through the GitLab integration.
 
 # GitLab
 
-> Setting up the GitLab integrations requires **Admin** privileges. Confirm that you have the correct permissions before continuing.&#x20;
-
+> Setting up the GitLab integrations requires **Admin** privileges. Confirm that you have the correct permissions before continuing.
 
 This guide will take you through the required steps to set up Datafold with GitLab. Let's start by adding a new Git config.
 
@@ -23,9 +22,9 @@ Datafold requires the Maintainer role.
 
 For the personal access token; you can fetch the access token from [your profile page in GitLab](https://gitlab.com/-/profile/personal\_access\_tokens). For the integration the `api` permissions are sufficient.
 
-![](<../../../.gitbook/assets/image (10).png>)
+![](<../../../.gitbook/assets/image (10) (1).png>)
 
-Let's use our example repository [datafold/dbt-snowflake](https://gitlab.com/datafold/dbt-snowflake) in GitLab. As the name suggests, this is a simple example setup using dbt with a Snowflake backend.&#x20;
+Let's use our example repository [datafold/dbt-snowflake](https://gitlab.com/datafold/dbt-snowflake) in GitLab. As the name suggests, this is a simple example setup using dbt with a Snowflake backend.
 
 ![](<../../../.gitbook/assets/image (174).png>)
 

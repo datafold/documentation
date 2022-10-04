@@ -16,7 +16,6 @@ CREATE ROLE datafold WITH LOGIN ENCRYPTED PASSWORD 'SOMESECUREPASSWORD';
 
 GRANT USAGE ON SCHEMA myschema TO datafold;
 GRANT SELECT ON ALL TABLES IN SCHEMA myschema TO datafold;
-
 ```
 
 ### AWS Aurora Postgres Lineage
@@ -76,7 +75,7 @@ Make sure that the credentials are kept secure. Store them somewhere safely (for
 
 Next, go to CloudWatch and lookup the Log group:
 
-![](<../../.gitbook/assets/image (13).png>)
+![](<../../.gitbook/assets/image (13) (1).png>)
 
 We need to supply the Credentials and the Log group to Datafold:
 
@@ -84,6 +83,4 @@ We need to supply the Credentials and the Log group to Datafold:
 
 > [IP Whitelisting ->](../../developer/security/network-security.md)
 
-
->After setting permissions in your data source, move on to [Configuration ->](../configuration/)
-
+> After setting permissions in your data source, move on to [Configuration ->](../configuration/)

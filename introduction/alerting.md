@@ -25,7 +25,7 @@ Queries should have **one temporal column** (e.g., hour, day, week, etc.), which
 
 Queries with no temporal column and 1 row per dimension will implicitly use the current date and time in UTC. Using two or more rows in any dimension will cause an error. Datafold will build the history inside of Datafold (see screenshot).
 
-![Example: Alert for non time series data.](<../.gitbook/assets/image (3).png>)
+![Example: Alert for non time series data.](<../.gitbook/assets/image (3) (1).png>)
 
 #### Creating Alerts
 
@@ -35,7 +35,7 @@ Once a query is run, each metric column will be graphed against the specified ti
 * **Max increase/decrease.** Applies to a % change in the metric value from the previous period (e.g. day-over-day). For example, if you track a median or average of a value, and you don't expect rapid changes.&#x20;
 * **Anomaly detection.** Datafold comes with anomaly detection that takes into account seasonality and trend in your data and will construct a confidence interval (pale blue in the picture). You can even control the sensitivity of the model to generate more or fewer alerts.
 
-![Historical trend of metric](<../.gitbook/assets/image (6).png>)
+![Historical trend of metric](<../.gitbook/assets/image (6) (1).png>)
 
 #### Multi-dimensional Alerts
 
